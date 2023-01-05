@@ -2,7 +2,7 @@
 This is A FullStack App powered by the greatest JavaScript framework Svelte and nodeJS framework express. My database of choice is Mongodb.
 
 
-#IDEAS API
+# IDEAS API
 The idea API is an API I built to test my backend knowledge, it uses the REST API standard and has support for simple CRUD commands and was used to power a frontend application built with the Svelte framework and TailwindCSS. This project was completed in 12 hours.
 
 GET Get Ideas
