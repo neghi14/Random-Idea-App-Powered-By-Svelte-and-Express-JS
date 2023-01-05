@@ -3,15 +3,17 @@
   let name, idea, body;
 
   const createIdeas = async (jsonData) => {
-    const res = await fetch("http://localhost:8000/api/v1/ideas", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: jsonData,
-    });
+    const res = await fetch(
+      "https://brokedev-ideaapp.vercel.app/api/v1/ideas",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: jsonData,
+      }
+    );
     const data = await res.json();
-    console.log(data, jsonData);
   };
 </script>
 

@@ -5,10 +5,11 @@
 
   onMount(() => {
     fetchIdeas = async () => {
-      const res = await fetch("http://localhost:8000/api/v1/ideas");
+      const res = await fetch(
+        "https://brokedev-ideaapp.vercel.app/api/v1/ideas"
+      );
       const data = await res.json();
       results = data.data.ideas;
-      console.log(results);
     };
     fetchIdeas();
     randomIdea = () => {
