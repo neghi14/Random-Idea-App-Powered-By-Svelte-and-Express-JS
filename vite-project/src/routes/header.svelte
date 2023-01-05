@@ -13,6 +13,11 @@
         >
       </li>
       <li>
+        <Link class="text-white text-xl font-ubuntu font-medium" to="/add"
+          >IDEAS</Link
+        >
+      </li>
+      <li>
         <Link class="text-white text-xl font-ubuntu font-medium" to="/about"
           >ABOUT</Link
         >

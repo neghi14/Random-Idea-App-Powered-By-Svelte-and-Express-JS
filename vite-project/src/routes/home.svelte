@@ -33,9 +33,14 @@
           Get your next Start up idea
         </p>
       {:else}
-        <p class="text-xl lg:text-2xl capitalize font-ubuntu text-white">
-          {idea.name}
-        </p>
+        <div class="flex gap-4 flex-col items-start">
+          <p class="text-xl lg:text-2xl capitalize font-ubuntu text-white">
+            {idea.name}
+          </p>
+          <p class="text-lg text-white font-ubuntu font-medium">
+            BY: <span class="inline-block ml-2 ">{idea.by}</span>
+          </p>
+        </div>
       {/if}
       <div class="flex items-center gap-4">
         <button

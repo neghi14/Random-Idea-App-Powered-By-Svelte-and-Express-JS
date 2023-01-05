@@ -1,6 +1,7 @@
 <script>
   import { Router, Route } from "svelte-navigator";
   import About from "./about.svelte";
+  import AddIdeas from "./addIdeas.svelte";
   import Docs from "./docs.svelte";
   import Header from "./header.svelte";
   import Home from "./home.svelte";
@@ -14,6 +15,9 @@
     </Route>
     <Route path="/docs">
       <Docs />
+    </Route>
+    <Route path="/add">
+      <AddIdeas />
     </Route>
     <Route path="/about">
       <About />
