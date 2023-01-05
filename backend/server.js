@@ -5,10 +5,12 @@ const app = require('./index');
 
 dotenv.config('.env');
 
-const db = process.env.DATABASE.replace(
-  '<PASSWORD>',
-  process.env.DATABASE_PASSWORD
-);
+// const db = process.env.DATABASE.replace(
+//   '<PASSWORD>',
+//   process.env.DATABASE_PASSWORD
+// );
+
+const db = process.env.MONGODB_URI;
 mongoose.set('strictQuery', false);
 mongoose.connect(db).then(() => {
   console.log('DB CONNECTED SUCCESSFULLY');
