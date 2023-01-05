@@ -17,11 +17,6 @@ app.use(requestedAt);
 const ideaRoutes = require('./routes/ideaRoutes');
 
 //ROUTES
-app.get('/', (req, res) => {
-  res.status(200).json({
-    message: 'HELLO',
-  });
-});
 app.use('/api/v1/ideas', ideaRoutes);
 
 module.exports = app;
