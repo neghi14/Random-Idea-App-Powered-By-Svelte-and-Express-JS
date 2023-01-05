@@ -4,7 +4,7 @@
 
   const createIdeas = async (jsonData) => {
     const res = await fetch(
-      "https://brokedev-ideaapp.vercel.app/api/v1/ideas",
+      "https://brokedev-ideaapp-api.vercel.app/api/v1/ideas",
       {
         method: "POST",
         headers: {
@@ -84,7 +84,7 @@
                 added = false;
                 idea = "";
                 name = "";
-              }, 3000);
+              }, 1000);
             }}>Add idea</button
           >
         {/if}

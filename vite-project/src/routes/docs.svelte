@@ -23,7 +23,7 @@
         Get Ideas</span
       >
       <code class="border border-white p-4 text-white"
-        >https://brokedev-ideaapp.vercel.app/api/v1/ideas</code
+        >https://brokedev-ideaapp-api.vercel.app/api/v1/ideas</code
       >
       <p class="text-white text-lg font-ubuntu font-medium">
         This is the endpoint to get all the random Ideas currenttly on the
@@ -38,7 +38,7 @@
         Create Ideas</span
       >
       <code class="border border-white p-4 text-white"
-        >https://brokedev-ideaapp.vercel.app/api/v1/ideas</code
+        >https://brokedev-ideaapp-api.vercel.app/api/v1/ideas</code
       >
       <p class="text-white text-lg font-ubuntu font-medium">
         This is the endpoint to create a new entry in the database
@@ -52,7 +52,7 @@
         Update Ideas</span
       >
       <code class="border border-white p-4 text-white"
-        >https://brokedev-ideaapp.vercel.app/api/v1/ideas/:id</code
+        >https://brokedev-ideaapp-api.vercel.app/api/v1/ideas/:id</code
       >
       <p class="text-white text-lg font-ubuntu font-medium">
         This is the endpoint to update a new entry in the database
@@ -66,7 +66,7 @@
         Delete Ideas</span
       >
       <code class="border border-white p-4 text-white"
-        >https://brokedev-ideaapp.vercel.app/api/v1/ideas/:id</code
+        >https://brokedev-ideaapp-api.vercel.app/api/v1/ideas/:id</code
       >
       <p class="text-white text-lg font-ubuntu font-medium">
         This is the endpoint to delete a new entry in the database
